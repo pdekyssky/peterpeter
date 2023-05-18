@@ -269,19 +269,6 @@ p{
   height: 20rem;
   perspective: 1000px;
 }
-#card1{
-  background-image: url("assets/brusenie.jpg");
-}
-#card2 {
-  background-image: url("assets/demontaz.jpg");
-}
-#card3 {
-  background-image: url("assets/montaz.jpg");
-}
-#card4 {
-  background-image: url("assets/renovacia.jpg");
-}
-
 
 
 /*section two*/
