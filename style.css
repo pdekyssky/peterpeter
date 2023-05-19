@@ -217,8 +217,13 @@ body{
   .card-front {
     background-color: #f1f1f1;
     color: black;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bolder;
   }
-  
+  .card-front h2 {
+    margin-top: 5%;
+  }
   .card-back {
     background-color: #2980b9;
     color: white;
