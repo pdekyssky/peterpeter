@@ -50,7 +50,9 @@ table {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* Styles for large devices */
 }
-
+@media only screen and (min-width: 1367px) and (max-width: 1680px) {
+  /* Styles for large devices */
+}
 /* Extra large devices (larger desktops) */
 @media only screen and (min-width: 1681px) {
   /* Styles for extra large devices */
@@ -397,6 +399,21 @@ p{
   overflow: hidden;
 }
 } 
+@media only screen and (min-width: 1367px) and (max-width: 1680px) {
+  /* Styles for large devices */
+  #about {
+    padding-top: 5%;
+  }
+  #about h2 {
+    font-weight: 900;
+  }
+  .about-info p {
+    max-width: 50%;
+  }
+  .about-img {
+    max-width: 40%;
+  }
+}
 /*about*/
 
 /* CONTACT SECTION*/
@@ -410,7 +427,10 @@ p{
     flex-direction: row;
     justify-content: center;
     gap: 10px;
-    margin: 130px 15px;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 #contact > h2 {
     text-align: center;
@@ -601,8 +621,45 @@ p{
 #cookie-window button:hover {
   opacity: 0.8;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1367px) and (max-width: 1680px) {
   /* Styles for large devices */
+  #contact {
+    padding-top: 5%;
+  }
+  #contact h2 {
+    font-size: 2em;
+    font-weight: 900;
+  }
+  .contact {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .contact-info {
+    height: 8em;
+  }
+  .google-map {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .socials {
+    padding-bottom: 1em;
+  }
+  .footer-section {
+    padding-top: 5%;
+  }
+  .footer-section p > strong {
+    font-weight: 900;
+  }
+  .company-info  strong {
+    font-weight: 900;
+    line-height: 2em;
+  }
+  .creator {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
 }
 /*CONTACT*/
 
