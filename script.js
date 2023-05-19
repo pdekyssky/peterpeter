@@ -67,3 +67,43 @@ lightbox.option({
     disableScrolling: true,
   });
 
+// Check if the user has previously accepted cookies
+function hasConsent() {
+    return localStorage.getItem('cookieConsent') === 'true';
+  }
+  
+  // Save the user's consent
+  function setConsent(consent) {
+    localStorage.setItem('cookieConsent', consent);
+  }
+  
+  // Function to handle the accept button click event
+  function handleAccept() {
+    setConsent(true);
+    hideCookieWindow();
+  }
+  
+  // Function to handle the close button click event
+  function handleClose() {
+    hideCookieWindow();
+  }
+  
+  // Hide the cookie window
+  function hideCookieWindow() {
+    document.getElementById('cookie-window').style.display = 'none';
+  }
+  
+  // Show the cookie window if the user has not yet given consent
+  function showCookieWindow() {
+    if (!hasConsent()) {
+      document.getElementById('cookie-window').style.display = 'block';
+    }
+  }
+  
+  // Event listeners for accept and close buttons
+  document.getElementById('accept-btn').addEventListener('click', handleAccept);
+  document.getElementById('close-btn').addEventListener('click', handleClose);
+  
+  // Show the cookie window on page load
+  showCookieWindow();
+  
