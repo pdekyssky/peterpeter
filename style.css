@@ -244,10 +244,12 @@ p{
   background-image: url("assets/brusenie.jpg");
 }
 #card2 {
-  background-image: url("assets/demontaz.jpg");
+  background-image: url("assets/floor_6_compressed.jpeg");
+  background-size: cover;
 }
 #card3 {
-  background-image: url("assets/montaz.jpg");
+  background-image: url("assets/epoxy-1-compressed.jpeg");
+  background-size: cover;
 }
 #card4 {
   background-image: url("assets/renovacia.jpg");
@@ -263,8 +265,6 @@ p{
     align-items: center;
     padding-top: 1%;
    /* border: 2px solid red;*/
-   
-}
 }
 .cards {
   display: grid;
@@ -276,6 +276,8 @@ p{
   height: 20rem;
   perspective: 1000px;
 }
+}
+
 
 
 /*section two*/
@@ -394,7 +396,7 @@ p{
   padding-top: 0;
 }
 .about-img {
-  max-width: 25%;
+  max-width: 40%;
   max-height: 100%;
   overflow: hidden;
 }
