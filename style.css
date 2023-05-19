@@ -170,6 +170,11 @@ body{
 .carousel button {
     font-size: 5em;
   }
+  .carousel h1 {
+    font-size: 8em;
+    color: #121010;
+    font-weight: 500;
+  }
 }
 
 /* home */
