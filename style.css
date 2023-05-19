@@ -52,7 +52,7 @@ table {
 }
 
 /* Extra large devices (larger desktops) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1681px) {
   /* Styles for extra large devices */
 } 
 /**/
@@ -65,7 +65,7 @@ body{
     margin: 0;
     padding: 0;
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1681px) {
   /* Styles for extra large devices */
   section {
    padding-top: 5%;
@@ -76,7 +76,7 @@ body{
   background-color: black;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1681px) {
   /* Styles for extra large devices */
 #navbar_top {
   height: 7%;
@@ -163,7 +163,7 @@ body{
 .carousel .next {
   right: 10px;
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1681px) {
   /* Styles for extra large devices */
 .carousel button {
     font-size: 5em;
@@ -251,7 +251,7 @@ p{
   background-image: url("assets/renovacia.jpg");
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1681px) {
   /* Styles for extra large devices */
   #work{
     min-height: 100vh;
@@ -337,7 +337,7 @@ p{
       grid-row: unset;
     }
   }
-  @media only screen and (min-width: 1200px) {
+  @media only screen and (min-width: 1681px) {
     /* Styles for extra large devices */
     #gallery {
       padding-top: 4%;
@@ -375,7 +375,7 @@ p{
   max-height: 800px;
   overflow: hidden;
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1681px) {
   /* Styles for extra large devices */
 #about h2 {
   font-size: 2em;
@@ -478,7 +478,7 @@ p{
   margin-top: auto;
   padding-top: 100px;
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1681px) {
   /* Styles for extra large devices */
   #contact{
     min-height: 100vh;
@@ -601,7 +601,9 @@ p{
 #cookie-window button:hover {
   opacity: 0.8;
 }
-
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* Styles for large devices */
+}
 /*CONTACT*/
 
 

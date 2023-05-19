@@ -1,3 +1,4 @@
+//stickz scroll navbar
 document.addEventListener("DOMContentLoaded", function(){
     window.addEventListener('scroll', function() {
         if (window.scrollY > 50) {
@@ -12,7 +13,8 @@ document.addEventListener("DOMContentLoaded", function(){
         } 
     });
   }); 
-  // DOMContentLoaded  end
+ 
+
 // carousel
 let slides = document.querySelectorAll('.carousel img');
         let currentSlide = 0;
@@ -54,8 +56,10 @@ let slides = document.querySelectorAll('.carousel img');
         }
 
         // Start the carousel when the page loads
+      
         window.addEventListener('load', startCarousel);
-//lightbox
+
+        //lightbox
 
 lightbox.option({
     resizeDuration: 200,
@@ -67,6 +71,8 @@ lightbox.option({
     disableScrolling: true,
   });
 
+
+//cookies
 // Check if the user has previously accepted cookies
 function hasConsent() {
     return localStorage.getItem('cookieConsent') === 'true';
