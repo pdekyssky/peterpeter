@@ -539,6 +539,9 @@ p{
 .company-info {
   padding-right: 0;
 }
+.socials h3 {
+  font-size: 1.5em;
+}
 .bi-facebook, .bi-instagram {
   font-size: 3em;
 }
@@ -547,7 +550,7 @@ p{
   display: flex;
   flex-direction: column;
   margin-top: auto;
-  padding-top: 5%;
+  padding-top: 4%;
 }
 .footer-section i {
   margin-right: 0.5%;
