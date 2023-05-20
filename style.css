@@ -282,7 +282,12 @@ p{
   perspective: 1000px;
 }
 }
-
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .cards h2 {
+    font-weight: 700;
+    color: rgb(14, 14, 14);
+  }
+}
 
 
 /*section two*/
@@ -357,6 +362,25 @@ p{
       color: white;
     }
   } 
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    #gallery {
+      padding-top: 6%;
+    }
+    #gallery h2 {
+      color: white;
+      font-size: 2em;
+      font-weight: 700;
+      text-align: center;
+    }
+    #gallery p {
+      text-align: center;
+    }
+    #gallery p>a {
+      text-decoration: none;
+      cursor: pointer;
+      color: white;
+    }
+  }
 /*galery*/
 
 /*about*/
@@ -419,6 +443,15 @@ p{
   }
   .about-img {
     max-width: 40%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #about {
+    padding-top: 6%;
+  }
+  #about h2 {
+    font-size: 2em;
+    font-weight: 700;
   }
 }
 /*about*/
@@ -666,6 +699,33 @@ p{
     text-decoration: none;
     color: black;
     cursor: pointer;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* Styles for large devices */
+  #contact {
+    padding-top: 5%;
+  }
+  #contact h2 {
+    font-size: 2em;
+    font-weight: 700;
+  }
+  .contact-info p {
+    padding-bottom: 8%;
+  }
+  .google-map {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .footer-section {
+    padding-top: 5%;
+  }
+  .socials {
+    padding-bottom: 1%;
+  }
+  .socials h3 {
+    padding-bottom: 1%;
   }
 }
 /*CONTACT*/
