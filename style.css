@@ -283,6 +283,9 @@ p{
 }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  #work {
+    padding-top: 5%;
+  }
   .cards h2 {
     font-weight: 700;
     color: rgb(14, 14, 14);
@@ -396,6 +399,7 @@ p{
       color: white;
       font-size: 2em;
       text-align: center;
+      padding-top: 1%;
     }
   }
 /*galery*/
@@ -764,6 +768,34 @@ p{
   }
   .socials h3 {
     padding-bottom: 1%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Styles for medium devices */
+  #contact h2 {
+    font-size: 2em;
+    font-weight: 700;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-info {
+    width: 50%;
+  }
+  .contact-info p {
+    padding-bottom: 5%;
+    text-align: center;
+    line-height: 1.2em;
+  }
+  .contact-info img {
+    padding-right: 0;
+    margin-left: 5%;
+  }
+  .company-info {
+    padding-right: 20%;
   }
 }
 /*CONTACT*/
