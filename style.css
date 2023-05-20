@@ -288,7 +288,15 @@ p{
     color: rgb(14, 14, 14);
   }
 }
-
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Styles for medium devices */
+  .cards {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    padding-bottom: 5%;
+  }
+}
 
 /*section two*/
 
@@ -381,6 +389,15 @@ p{
       color: white;
     }
   }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Styles for medium devices */
+    
+    #gallery h2 {
+      color: white;
+      font-size: 2em;
+      text-align: center;
+    }
+  }
 /*galery*/
 
 /*about*/
@@ -452,6 +469,21 @@ p{
   #about h2 {
     font-size: 2em;
     font-weight: 700;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Styles for medium devices */
+  #about h2 {
+    font-size: 2em;
+    font-weight: 700;
+    padding-top: 1%;
+  }
+  .about-img {
+    display: none;
+  }
+  .about-info p {
+    line-height: 1.5em;
+    padding-bottom: 5%;
   }
 }
 /*about*/
@@ -537,6 +569,12 @@ p{
   flex-direction: column;
   margin-top: auto;
   padding-top: 100px;
+}
+.google-map {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 @media only screen and (min-width: 1681px) {
   /* Styles for extra large devices */
@@ -719,7 +757,7 @@ p{
     justify-content: center;
   }
   .footer-section {
-    padding-top: 5%;
+    padding-top: 15%;
   }
   .socials {
     padding-bottom: 1%;
