@@ -208,7 +208,7 @@ body{
     cursor: pointer;
   }
   
-  .card:hover .card-inner {
+  .card:hover .card:active .card-inner {
     transform: rotateY(180deg);
   }
   
