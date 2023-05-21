@@ -300,7 +300,16 @@ p{
     padding-bottom: 5%;
   }
 }
-
+@media only screen and (max-width: 575px) {
+  /* Styles for extra small devices */
+  #work {
+    padding-top: 5%;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+}
 /*section two*/
 
 /*galery*/
@@ -402,6 +411,17 @@ p{
       padding-top: 1%;
     }
   }
+  @media only screen and (max-width: 575px) {
+    /* Styles for extra small devices */
+    #gallery {
+      padding-top: 5%;
+    }
+    #gallery h2 {
+      color: white;
+      font-size: 2em;
+      text-align: center;
+    }
+  }
 /*galery*/
 
 /*about*/
@@ -488,6 +508,19 @@ p{
   .about-info p {
     line-height: 1.5em;
     padding-bottom: 5%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  /* Styles for extra small devices */
+  #about {
+    padding-top: 5%;
+    padding-bottom: 2%;
+  }
+  #about h2 {
+    font-size: 2em;
+  }
+  .about-img {
+    display: none;
   }
 }
 /*about*/
@@ -796,6 +829,29 @@ p{
   }
   .company-info {
     padding-right: 20%;
+  }
+  .socials {
+    margin-bottom: 2%;
+  }
+  .socials h3 {
+    margin-bottom: 2%;
+  }
+  .socials a {
+    margin-right: 1%;
+    font-size: 2em;
+  }
+}
+@media only screen and (max-width: 575px) {
+  /* Styles for extra small devices */
+  .contact {
+    display: flex;
+    flex-direction: column;
+    max-width: 75%;
+    margin: 0 auto;
+  }
+  .google-map {
+    max-width: 85%;
+    margin: 0 auto;
   }
 }
 /*CONTACT*/
