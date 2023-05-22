@@ -112,5 +112,3 @@ function hasConsent() {
   
   // Show the cookie window on page load
   showCookieWindow();
-  
-  
