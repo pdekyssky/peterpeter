@@ -311,7 +311,7 @@ p{
   .card:active {
     /* This style will be applied when the card is tapped on mobile */
     transform: rotateY(180deg);
-}
+} }
 @media only screen and (max-width: 575px) {
   /* Styles for extra small devices */
   #work {
@@ -335,7 +335,7 @@ p{
   .card h2 {
     font-weight: 700;
   }
-}
+} }
 /*section two*/
 
 /*galery*/
