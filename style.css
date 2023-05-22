@@ -323,6 +323,7 @@ p{
   .card:active {
     /* This style will be applied when the card is tapped on mobile */
     transform: rotateY(180deg);
+  }
   .cards {
     display: flex;
     flex-direction: column;
@@ -335,7 +336,7 @@ p{
   .card h2 {
     font-weight: 700;
   }
-} }
+} 
 /*section two*/
 
 /*galery*/
