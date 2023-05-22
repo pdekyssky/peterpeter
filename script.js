@@ -113,14 +113,4 @@ function hasConsent() {
   // Show the cookie window on page load
   showCookieWindow();
   
-  const cards = document.querySelectorAll('.card');
-
-  cards.forEach(function(card) {
-    card.addEventListener('touchstart', function() {
-      card.classList.add('touch-hover');
-    });
-    
-    card.addEventListener('touchend', function() {
-      card.classList.remove('touch-hover');
-    });
-  });
+  
